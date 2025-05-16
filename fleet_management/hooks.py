@@ -242,3 +242,9 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# doc_events = {
+#    "File": {
+#        "after_insert": "fleet_management.api.vehicle_import.clean_and_import_vehicle_data"
+#    }
+# }
+
